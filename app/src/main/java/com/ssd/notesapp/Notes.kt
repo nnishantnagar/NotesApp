@@ -10,8 +10,4 @@ class Notes(@ColumnInfo(name = "text")val text: String) {
 
     //for auto-generating id numbers
     @PrimaryKey(autoGenerate = true) var id = 0
-
-
-
-
 }
